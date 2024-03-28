@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class FarmRunner {
     public static void main(String[] args) throws Exception {
        
@@ -5,19 +7,16 @@ public class FarmRunner {
       
       
       
-      Turkey bird = new Turkey();
-      Pig pig = new Pig();
+      // Turkey bird = new Turkey();
+      // Pig pig = new Pig();
 
 
 
 
 
-      bird.speak();
-      bird.sayName();
-      pig.speak();
-
-
-
+      // bird.speak();
+      // bird.sayName();
+      // pig.speak();
 
 
 
