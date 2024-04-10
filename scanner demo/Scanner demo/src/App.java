@@ -1,25 +1,25 @@
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 
 
 
 
-public class App {
+// public class App {
     
-    public static void main(String[] args) throws Exception {
+//     public static void main(String[] args) throws Exception {
         
     
     
     
     
-    //int input
+    // int input
     // System.out.println("Integers :   ");
     // int num = keys.nextInt()*2;
     
     // System.out.println("The number was :"  + num);
     
-    //double input
+    // double input
     // System.out.println("Double :   ");
     // double dblnum = keys.nextDouble();
     
@@ -27,28 +27,27 @@ public class App {
 
 
     // next line input
-//     System.out.println("Double :   ");
-//     string word = keys.nextLine();
-    
-//     System.out.println("The word was :"  + word);
-    
+    // System.out.println("Double :   ");
+    // string word = keys.nextLine();
+    // System.out.println("The word was :"  + word);
     
     
     
-    Scanner keys = new Scanner(System.in);
+    
+    // Scanner keys = new Scanner(System.in);
 
-    System.out.println("Enter an Integer: ");
+    // System.out.println("Enter an Integer: ");
 
-    int num = keys.nextInt();
+    // int num = keys.nextInt();
 
+     
+    // Scanner str = new Scanner(System.in);
     
-    Scanner str = new Scanner(System.in);
-    
-    System.out.println("Enter a sentence:  ");
+    // System.out.println("Enter a sentence:  ");
 
-    String sentence = str.nextLine();
+    // String sentence = str.nextLine();
 
-    System.out.println(num + "\t " + sentence);
+    // System.out.println(num + "\t " + sentence);
 
-    }
-}
+//     }
+// }
