@@ -13,10 +13,11 @@ public class BigorsmallA9 {
 
 
      
-
+     
     if ((y>10 && x<20)){
         System.out.println("yes");
      }
+    
     else if (x==20 || y == 10 ){
         System.out.println("equals");
     }
