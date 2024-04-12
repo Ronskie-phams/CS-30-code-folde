@@ -8,7 +8,7 @@ public class BigorsmallA9 {
     {
 
 
-      if (a>b  ){
+      if (a>b ){
 
 
        System.out.println("yes");
@@ -17,13 +17,13 @@ public class BigorsmallA9 {
 
        
 
-     else if (b<a  ){
+      else if (a<b ){
 
         System.out.println("no");
 
        }
 
-     else  {
+      else   {
         System.out.println("equals");
        }
 
