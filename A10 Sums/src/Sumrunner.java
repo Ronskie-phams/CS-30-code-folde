@@ -19,11 +19,16 @@ public class Sumrunner {
 
 
     }
+
+
+    
     
     public void sum()
     {
      
         sum = one + two ;
+        sum = two + one;
+      
       
 
 
@@ -35,6 +40,8 @@ public class Sumrunner {
     {
 
        System.out.println(sum);
+       
+     
      
 
 
