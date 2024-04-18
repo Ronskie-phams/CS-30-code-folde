@@ -1,26 +1,70 @@
+
+
+
+
+
+
+
 public class Sums {
-    public static void main(String[] args) throws Exception {
-       Sumrunner test = new Sumrunner();
 
-       test.setNums(2,6);
-       test.sum();
-       test.print();
+
+    private double one,two,sum;
+
+
+    public void setNums(double num1, double num2)
+    {
+       one = num1;
+       two = num2;
        
-       
-       test.setNums(5,10);
-       test.sum();
-       test.print();
-
-
-       test.setNums(20,100);
-       test.sum();
-       test.print();
-
-
- 
-
-       // add more test cases
 
 
     }
+
+
+    
+    
+    public void sum()
+    {
+     
+        sum = one + two ;
+        sum = two + one;
+      
+      
+
+
+
+
+    }
+
+    public void print()
+    {
+
+       System.out.println(sum);
+       
+     
+     
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

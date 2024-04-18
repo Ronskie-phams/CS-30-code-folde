@@ -2,12 +2,12 @@
 
 public class Fahrenheit
 {
-	private double Fahrenheit;
-
+	private double one;
+     
 	public void setFahrenheit(double fahren)
 	{
 
-
+        one = fahren;
 
 
 
@@ -15,8 +15,8 @@ public class Fahrenheit
 	}
 
 	public double getCelsius()
-	{
-		double celsius = 0.0;
+	{    
+		double celsius = (one - 32.0 *5.0)/9.0;
 		//add code to convert fahrenheit to celsius
 		return celsius;
 	}
