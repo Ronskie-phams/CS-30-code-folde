@@ -8,7 +8,7 @@ public class Fahrenheit
 	{
 
         one = fahren;
-
+        
 
 
 
@@ -16,7 +16,7 @@ public class Fahrenheit
 
 	public double getCelsius()
 	{    
-		double celsius = (one - 32.0 *5.0)/9.0;
+		double celsius = (one - 32)* 5/9;
 		//add code to convert fahrenheit to celsius
 		return celsius;
 	}
@@ -24,6 +24,6 @@ public class Fahrenheit
 	public void print()
 	{
 		//this is part of the solution
-		System.out.println(getCelsius());
+		System.out.println("The convertion of fahrenheit to celsius is"+ getCelsius());
 	}
 }
