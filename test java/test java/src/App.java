@@ -1,6 +1,5 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        System.out.println("My name is Ron");
+        System.out.print( (double) 4 / 2 );
     }
 }

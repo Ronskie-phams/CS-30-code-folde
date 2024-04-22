@@ -21,7 +21,7 @@ public class Geo {
     // Area of a circle
     public void circleArea(double radius) {
         c = radius;
-        double rad = 3.14*(radius*radius);
+        double rad = 3.14*(c*c);
         System.out.println("radius calculation is "+ rad);
     }
 }
