@@ -6,8 +6,8 @@
         
         public class MPH
         {
-            private int d, h;
-            private double speed,mph,m;
+            private int d, h, dis , hou;
+            private double speed,mph,m, minu, mcalc, mpspeed;
         
             public MPH()
             {
@@ -24,9 +24,12 @@
         
             }
         
-            public void setNums(int dist, int hrs, int mins)
+            public void setNums(int dista, int hors, int minus)
             {
-            
+            dis = dista;
+            hou = hors;
+            minu = minus;
+
         
             }
         
@@ -35,14 +38,22 @@
             {
               mph =  h + (m/60);
               speed =  Math.round(d / mph);
+
+              mcalc = hou + (minu/60);
+              mpspeed = Math.round(dis/mcalc);
             
         
         
             }
         
-            public void print()
+            public void print1()
             {
              System.out.println(d + " miles in "+ h + "hours and " + m + " minutes =" + speed + " MPH");
+        
+            }
+            public void print2()
+            {
+             System.out.println(dis + " miles in "+ hou + "hours and " + minu + " minutes =" + mpspeed + " MPH");
         
             }
         }

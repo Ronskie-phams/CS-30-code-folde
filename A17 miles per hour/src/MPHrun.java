@@ -19,25 +19,25 @@ public class MPHrun
 
 		MPH test = new MPH(dist, hrs, mins);
         test.calcMPH();
-		test.print();
+		test.print1();
 		
 		//add more test cases
 		
 
-        Scanner keyboard = new Scanner(in);
+       
 
 		out.print("Enter the distance :: ");
-		int dist = keyboard.nextInt();
+		int dista = keyboard.nextInt();
 
 		out.print("Enter the hours :: ");
-		int hrs = keyboard.nextInt();
+		int hors = keyboard.nextInt();
 
 		out.print("Enter the minutes :: ");
-		int mins = keyboard.nextInt();
+		int minus = keyboard.nextInt();
 
-		MPH test = new MPH(dist, hrs, mins);
+		test.setNums(dista, hors, minus);
         test.calcMPH();
-		test.print();
+		test.print2();
 		
 		
 	}
