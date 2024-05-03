@@ -10,10 +10,16 @@ public class Coolnumrunner
 {
 	public static void main( String[] args )
 	{
-		System.out.println( Coolnumbers.countCoolNumbers(250) + " cool numbers between 6 - " + 250);
-		//add more test cases
-        Scanner check = new Scanner(System.in);
+		Scanner keys = new Scanner(System.in);
+		System.out.println("Enter an integer ::  ") ;
+	    int cool = keys.nextInt();
+		
+		  
         
-	}
+		//add more test cases
+       
+        System.out.println( Coolnumbers.countCoolNumbers(cool) + " cool numbers between 6 - " + 250);
+	
 }
     
+}

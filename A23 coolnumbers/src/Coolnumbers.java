@@ -34,10 +34,15 @@ public class Coolnumbers
 	public static int countCoolNumbers( int stop )
 
 	{
-       
+       int count = 0;
+	   for (int i = 6; i<= stop ; i++){
+		 if (isCoolNumber(i)){
+			count++;
+		 }
+	   }
     
         
-		return ;
+		return count;
         
 	}
 }
