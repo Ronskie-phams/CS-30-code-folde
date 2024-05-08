@@ -8,7 +8,7 @@ public class App {
 
        
        
-       System.out.println("I am" +  message1.substring(9));
+       System.out.println("I am" +  message1.substring(9)); // subs the word very and directly pritns I am happy
        
       
       //part 2
@@ -16,7 +16,7 @@ public class App {
        
 
 
-       System.out.println("That was great - " + message2.substring(20) + "laugh out loud");
+       System.out.println("That was great - " + message2.substring(20) + "laugh out loud"); // subs - lol and replaces it with laugh out loud
        
        
 

@@ -17,7 +17,7 @@ public class Coolnumbers
 	{
 
        
-		 return num % 3 ==1 && num % 4 ==1 && num % 5 ==1 && num%6 ==1 ;
+		 return num % 3 ==1 && num % 4 ==1 && num % 5 ==1 && num%6 ==1 ;// returns true if the numbers are prime numbers or cool numbers
         
          
          
@@ -31,11 +31,11 @@ public class Coolnumbers
 	 */
 
      
-	public static int countCoolNumbers( int stop )
+	public static int countCoolNumbers( int stop )// end number is the input cool
 
 	{
        int count = 0;
-	   for (int i = 6; i<= stop ; i++){
+	   for (int i = 6; i<= stop ; i++){// it counts how many cool numbers are there until the number you have input.
 		 if (isCoolNumber(i)){
 			count++;
 		 }

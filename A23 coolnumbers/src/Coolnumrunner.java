@@ -18,7 +18,7 @@ public class Coolnumrunner
         
 		//add more test cases
        
-        System.out.println( Coolnumbers.countCoolNumbers(cool) + " cool numbers between 6 - " + 250);
+        System.out.println( Coolnumbers.countCoolNumbers(cool) + " cool numbers between 6 - " + 250);// prints the cool numbers 
 	
 }
     

@@ -5,21 +5,21 @@ import java.lang.Math.*;
 public class Trian
 {    
 	// set global variables
-    private double setA,setB, setC, stA, stB, stC;
-	private double sideA, sideB, sideC;
-	private double perimeter1, per2, per3;
-	private double theArea, area2, area3;
+    private double setA,setB, setC, stA, stB, stC; // doubles the entire assigned variables
+	private double sideA, sideB, sideC;//^^
+	private double perimeter1, per2, per3;//^^
+	private double theArea, area2, area3;//^^
 
 	public Trian()
 	{
-	   setSides(0,0,0);
+	   setSides(0,0,0); //sets all sides to 0
 	   perimeter1=0;
 	   theArea=0;
 	}
 
 	public Trian(int a, int b, int c) // first triangle input
 	{
-      sideA = a;
+      sideA = a; // other assigned variables for a,b,c
       sideB = b;
       sideC = c;
 

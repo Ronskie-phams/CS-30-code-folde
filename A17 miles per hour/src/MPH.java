@@ -2,11 +2,11 @@
    
         import java.util.Scanner; 
         import static java.lang.System.*;
-        import static java.lang.Math.*;
+        import static java.lang.Math.*; // imports math codes 
         
         public class MPH
         {
-            private int d, h, dis , hou;
+            private int d, h, dis , hou;// makes it private and can only be used in this side of the code
             private double speed,mph,m, minu, mcalc, mpspeed;
         
             public MPH()
@@ -37,7 +37,7 @@
 
             {
               mph =  h + (m/60);
-              speed =  Math.round(d / mph);
+              speed =  Math.round(d / mph);// math round makes the answer round to the nearest number
 
               mcalc = hou + (minu/60);
               mpspeed = Math.round(dis/mcalc);

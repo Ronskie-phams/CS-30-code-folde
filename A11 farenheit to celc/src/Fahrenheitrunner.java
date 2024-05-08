@@ -6,13 +6,13 @@ public class Fahrenheitrunner
 
        Fahrenheit test = new Fahrenheit();
 	   
-	   test.setFahrenheit(98.6);
-	   test.getCelsius();
-	   test.print();
+	   test.setFahrenheit(98.6); // sets fahren to 98.6
+	   test.getCelsius(); // does the calculation
+	   test.print();// prints the total fahrenheit
        
 
 
-		//add test cases
+		
 				
 	}
 }

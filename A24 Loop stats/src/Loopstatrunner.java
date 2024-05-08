@@ -19,11 +19,23 @@ public class Loopstatrunner
 
        
 		LoopStats test = new LoopStats(start,stop);
-		
+		boolean t = true;
+		while (t){
 		System.out.println(start+ "  "+ stop);
 		System.out.println("total:" + test.getTotal());
 		System.out.println("Even numbers: "+  test.getEvenCount());
 		System.out.println("Odd numbers:   "+ test.getOddCount());
+		t = false;
+		}
+		System.out.println("again?(1/2) :: ");
+		int onetwo = keys.nextInt();
+
+		if (onetwo = "1"){
+			t = true;
+		}
+		
 
 	}
+	  
+
 }

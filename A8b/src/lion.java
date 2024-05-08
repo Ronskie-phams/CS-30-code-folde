@@ -1,8 +1,8 @@
 public class lion {
     
-        public void shout()
+        public void shout() // public allows to be accessed anywhere
         {
-           System.out.println("roaarr");
+           System.out.println("roaarr");// prints the assigned words
         }
      
         public void name()

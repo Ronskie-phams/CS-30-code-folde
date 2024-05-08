@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 import static java.lang.System.*;
-import static java.lang.Math.*;
+
 
 public class MPHrun
 {
@@ -17,9 +17,9 @@ public class MPHrun
 		out.print("Enter the minutes :: ");
 		int mins = keyboard.nextInt();
 
-		MPH test = new MPH(dist, hrs, mins);
-        test.calcMPH();
-		test.print1();
+		MPH test = new MPH(dist, hrs, mins); // sets the variables using the int inputs
+        test.calcMPH();// calculates the miles per hour
+		test.print1(); // prints the answer
 		
 		//add more test cases
 		
@@ -35,9 +35,9 @@ public class MPHrun
 		out.print("Enter the minutes :: ");
 		int minus = keyboard.nextInt();
 
-		test.setNums(dista, hors, minus);
-        test.calcMPH();
-		test.print2();
+		test.setNums(dista, hors, minus);// calculates using the int inputs
+        test.calcMPH(); // calculates the mph
+		test.print2();// total mph 
 		
 		
 	}

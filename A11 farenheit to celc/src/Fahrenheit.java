@@ -7,7 +7,7 @@ public class Fahrenheit
 	public void setFahrenheit(double fahren)
 	{
 
-        one = fahren;
+        one = fahren; // making another variable for fahren
         
 
 

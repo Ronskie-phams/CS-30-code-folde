@@ -6,11 +6,14 @@ public class LoopStats
 {
 	private int start, stop;
     
-	public LoopStats()
+	public  LoopStats()
 	{
-		boolean loop = true;
+		
+		
+		
 
-		while (loop);
+		while (true);
+
 		
 		
 	}
@@ -63,6 +66,7 @@ public class LoopStats
 
 
 		return total;
+		
 	}
 	
 	
