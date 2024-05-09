@@ -6,17 +6,7 @@ public class LoopStats
 {
 	private int start, stop;
     
-	public  LoopStats()
-	{
-		
-		
-		
-
-		while (true);
-
-		
-		
-	}
+	
 
 	public LoopStats(int beg, int end)
     {
@@ -44,7 +34,7 @@ public class LoopStats
 	public int getOddCount()
 	{
 		int oddCount=0;
-		for (int i = start; i <= stop; i++){
+		for (int i = start; i <= stop; i++){ // counts the odd number from start to stop
 			
 			if (i%2 !=0){
 				oddCount++;
@@ -57,7 +47,7 @@ public class LoopStats
 	{
 		int total=0;
 
-		for (int i = start; i <= stop;i++){
+		for (int i = start; i <= stop;i++){// sum of the total number from start to stop
 			total  += i ;
 		}
 
@@ -65,7 +55,7 @@ public class LoopStats
 
 
 
-		return total;
+		return total; // returns the total
 		
 	}
 	

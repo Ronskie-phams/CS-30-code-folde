@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Loopstatrunner
 {
+	public int onetwo;
 	public static void main ( String[] args )
 	{
 		//add test cases	
@@ -18,24 +19,22 @@ public class Loopstatrunner
 		int stop = keys.nextInt();
 
        
-		LoopStats test = new LoopStats(start,stop);
-		boolean t = true;
-		while (t){
+		LoopStats test = new LoopStats(start,stop);// runs Loopstats codes
+		{
 		System.out.println(start+ "  "+ stop);
-		System.out.println("total:" + test.getTotal());
-		System.out.println("Even numbers: "+  test.getEvenCount());
-		System.out.println("Odd numbers:   "+ test.getOddCount());
-		t = false;
-		}
-		System.out.println("again?(1/2) :: ");
-		int onetwo = keys.nextInt();
+		System.out.println("total:" + test.getTotal());// gets the total of the two numbers
+		System.out.println("Even numbers: "+  test.getEvenCount());// test the even count 
+		System.out.println("Odd numbers:   "+ test.getOddCount()); // testthe odd count
+			
+		} 
 
-		if (onetwo = "1"){
-			t = true;
-		}
+		
+
+		
 		
 
 	}
+	
 	  
 
 }
