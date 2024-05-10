@@ -10,8 +10,9 @@ public class LoopStats
 
 	public LoopStats(int beg, int end)
     {
-        start = beg;
-		stop = end;
+        start = beg; // set int beg as start 
+
+		stop = end; /// set int end as stop
 
 	}
 
@@ -22,13 +23,13 @@ public class LoopStats
 		for (int i = start; i <= stop; i++){
 			
 			if (i%2 ==0){
-				evenCount++;
+				evenCount++; // gets even count as if i remainder 2 equals 0 it changes the evencount 
 			}
 		}
 		
 
 
-		return evenCount;
+		return evenCount; // returns even count
 	}
 
 	public int getOddCount()
@@ -48,7 +49,7 @@ public class LoopStats
 		int total=0;
 
 		for (int i = start; i <= stop;i++){// sum of the total number from start to stop
-			total  += i ;
+			total  += i ;// changes the total variable to a number for i
 		}
 
 
