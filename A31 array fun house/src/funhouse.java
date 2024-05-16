@@ -17,18 +17,13 @@ public class funhouse
 	public static int getSum(int[] numArray, int start, int stop)
 	{
 		int sum = 0;
-        for (int  i =numArray[start]; i < numArray[stop] ; i++ ){
+        for (int  i = start; i < numArray[numArray.length-stop] ; i++ ){
             
-			if (i< numArray[stop]){
-                  
-
-				sum =   numArray[6];
-            //sum = i + numArray[4]+ numArray[5];
-		   }
+			sum += numArray[i] ;
+            
+		   
 
         }
-
-
 
 
 	   return sum ;
