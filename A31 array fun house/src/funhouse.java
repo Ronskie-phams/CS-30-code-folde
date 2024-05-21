@@ -32,7 +32,13 @@ public class funhouse
 	//getCount() will return number of times val is present
 	public static int getCount(int[] numArray, int val)
 	{
-		return 0;
+	  int count = 0;
+      for (int number:numArray){
+		if (number == numArray[0]){
+			count ++;
+		}
+	  }
+		return count;
 	}
 
 	public static int[] removeVal(int[] numArray, int val)
