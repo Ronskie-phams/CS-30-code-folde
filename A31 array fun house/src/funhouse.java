@@ -34,7 +34,7 @@ public class funhouse
 	{
 	  int count = 0;
       for (int number:numArray){
-		if (number == numArray[0]){
+		if (number == 4){
 			count ++;
 		}
 	  }
@@ -42,7 +42,19 @@ public class funhouse
 	}
 
 	public static int[] removeVal(int[] numArray, int val)
-	{
-		return null;
+	{ 
+	   
+	   
+		
+		for (int i = 0 ; i<numArray.length; i++){
+		if ( numArray[i] ==  4){
+			  numArray[i] = 0 ;
+			 
+		}
+	  }
+	  
+
+
+		return numArray;
 	}
 }

@@ -14,7 +14,14 @@ public class funhouserunner
 		System.out.println("sum of spots 2-9  =  " + funhouse.getSum(one,2,9));
 		System.out.println("# of 4s  =  " + funhouse.getCount(one,4));
 		System.out.println("# of 9s  =  " + funhouse.getCount(one,9));
-
+        
+		int [] newArray = funhouse.removeVal(one,4);
+	    System.out.println("Array after removing 4:"+ Arrays.toString(newArray));
+		
+		
+		
+		
+		
 		int[] two = {4,2,3,4,6,7,8,9,0,10,0,1,7,6,5,3,2,9,9,8,7};
 
 		//add test cases
