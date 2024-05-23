@@ -14,7 +14,7 @@ void setup(){
 void draw(){
  background(70,30,50);
  
-
+ 
  for (int i = 0; i<pos; i++){
     ballGroup[i].display();
     ballGroup[i].move();
