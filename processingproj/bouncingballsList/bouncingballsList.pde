@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 //Declaring the object
 ArrayList <Ball> ballGroup= new ArrayList<Ball>();
 
@@ -24,17 +12,31 @@ void draw(){
  background(70,30,50);
  
  
- for (int i = 0; i<ballGroup.size(); i++){
+//  for (int i = 0; i<ballGroup.size(); i++){
    
-    ballGroup.get(i).display().move();
+//     ballGroup.get(i).display();
+//     ballGroup.get(i).move();
+//  }
+for (Ball theBall : ballGroup){
+   theBall.move();
+
+  //check collision
+   for (Ball otherBall : ballGroup){
+      if ( theBall != otherBall){
+      theBall.checkCollision(otherBall);
+      }
+   
+   }
+   theBall.display();
  }
-
-
 }
+
+
+
 
 void mousePressed(){
     // creates a new object at this array position
-    ballGroup.add(new Ball ( mouseX,mouseY,100)); // creates new object at the end of the array list
+    ballGroup.add(new Ball ( mouseX,mouseY,100, width, height)); // creates new object at the end of the array list
 
 
   // if (pos<ballGroup.length){
